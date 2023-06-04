@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score{
+ margin-top: 45dvh;
+ margin-left: 45dvw;
+}
+.main-box{
+  display: flex;
+  width: 70vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  padding: 5dvh 5dvw 5dvh 5dvw;
+  background-color: #EEE3CB;
+  margin-left: 170px;
+}
+.button-mp{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.options{
+  padding: 2dvh 2dvw 2dvh 2dvw;
+}
+.radio-circle{ margin-top: 14px; margin-bottom: 10px;}
+.radio-text{margin-top: 10px; margin-bottom: 10px;}
+
+.button_block{
+  margin: 65px 170px 15px 170px;
+  padding: 5px 5px 5px 5px;
+}
+h1{
+  text-align: center;
+}
+h4{
+  text-align: end;
+  margin-right: 100px;
+}
+p {
+  margin: 4px;
+  text-align: center;
+}
+
+code {
+  font-family: monospace;
+  font-size: 1rem;
+  background-color: rgb(219, 219, 219);
+  padding: 2px;
+}
+
+#api-status {
+  margin-top: 100px;
+  font-family: monospace;
+  text-align: center;
+  font-size: 1rem;
+  background-color: rgb(219, 219, 219);
+  padding: 10px;
+}
